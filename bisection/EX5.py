@@ -55,9 +55,10 @@ def bisection_method(f, a, b, tol=1e-6):
 Main execution: Defines the function and runs the bisection method.
 """
 if __name__ == '__main__':
+    # Function from the given problem
     f = lambda x: (math.sin(x ** 2 + 5 * x + 6)) / (2 * math.exp(-x))
 
-    # Interval range [-3,1]
+    # Interval given in the problem [-3,1]
     try:
         root = bisection_method(f, -3, 1)
         print(f"\nThe approximate root of f(x) is: {root}")

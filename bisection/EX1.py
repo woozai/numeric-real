@@ -52,4 +52,3 @@ if __name__ == "__main__":
         print(f"\nApproximate largest root found in [-1,1.2]: x = {root}")
     else:
         print("לא נמצא טווח מתאים.")
-
